@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "fe58466e8c022d8dded8fecb2efe48a7",
+    "content-hash": "b1188e7b1a8e01d3e4ef142111467b96",
     "packages": [
         {
             "name": "curl/curl",
-            "version": "dev-master",
+            "version": "2.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-mod/curl.git",
-                "reference": "4c7cbc6d056afec339a706fff6f95741688b48b8"
+                "reference": "d22086dd2eee5ca02e4c29b9a5bdf3645bfdbbff"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/php-mod/curl/zipball/4c7cbc6d056afec339a706fff6f95741688b48b8",
-                "reference": "4c7cbc6d056afec339a706fff6f95741688b48b8",
+                "url": "https://api.github.com/repos/php-mod/curl/zipball/d22086dd2eee5ca02e4c29b9a5bdf3645bfdbbff",
+                "reference": "d22086dd2eee5ca02e4c29b9a5bdf3645bfdbbff",
                 "shasum": ""
             },
             "require": {
@@ -59,17 +59,17 @@
                 "curl",
                 "dot"
             ],
-            "time": "2019-01-07T17:14:10+00:00"
+            "time": "2018-12-04T19:47:03+00:00"
         }
     ],
     "packages-dev": [],
     "aliases": [],
-    "minimum-stability": "dev",
-    "stability-flags": {
-        "curl/curl": 20
-    },
+    "minimum-stability": "stable",
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
-    "platform": [],
+    "platform": {
+        "php": "^7"
+    },
     "platform-dev": []
 }

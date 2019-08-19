@@ -1,6 +1,6 @@
 {
     "name": "superkozel/morphy",
-    "description": "morpher.ru webservice PHP APi library",
+    "description": "morpher.ru webservice PHP API library",
     "type": "library",
     "license": "MIT",
     "authors": [
@@ -14,6 +14,7 @@
         "source":     "https://github.com/superkozel/morphy"
     },
     "require": {
-        "php": "^7"
+        "php": "^7",
+        "curl/curl": "^2.2"
     }
 }
