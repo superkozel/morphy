@@ -6,9 +6,13 @@
     "authors": [
         {
             "name": "superk",
-            "email": "aesleep@ya.ru",
+            "email": "aesleep@ya.ru"
         }
     ],
+    "support": {
+        "issues":     "https://github.com/superkozel/morphy/issues",
+        "source":     "https://github.com/superkozel/morphy"
+    },
     "require": {
         "php": "^7"
     }
