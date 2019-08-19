@@ -6,11 +6,10 @@
     "authors": [
         {
             "name": "superk",
-            "email": "aesleep@ya.ru"
+            "email": "aesleep@ya.ru",
         }
     ],
-    "minimum-stability": "dev",
     "require": {
-        "curl/curl": "dev-master"
+        "php": "^7"
     }
 }
