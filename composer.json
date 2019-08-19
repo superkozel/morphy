@@ -1,0 +1,16 @@
+{
+    "name": "superkozel/morphy",
+    "description": "morpher.ru webservice PHP APi library",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "superk",
+            "email": "aesleep@ya.ru"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "curl/curl": "dev-master"
+    }
+}

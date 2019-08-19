@@ -79,21 +79,15 @@ class Morphy
 		}
 
         $curl = new Curl();
-		$ch = curl_init();
-		curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
-//			curl_setopt($ch, CURLOPT_TIMEOUT);
-
-//			$proxy = array('http', '84.42.3.3', '3128');
-//			if (!empty($proxy[0])) {
-//				curl_setopt($ch, CURLOPT_PROXYTYPE, $proxy[0]);
-//				curl_setopt($ch, CURLOPT_PROXY, $proxy[1]);
-//				curl_setopt($ch, CURLOPT_PROXYPORT, $proxy[2]);
-//			}
-//
-
-        $curl->get(static::config('url') . '/russian/declension', array(
+		$get = array(
             's' => mb_ereg_replace("\s", "%20", $word),
-        ));
+        );
+
+		if (! empty(static::$config['password']) && ! empty(static::$config['username'])) {
+            $get['password'] = static::$config['password'];
+            $get['username'] = static::$config['username'];
+        }
+        $curl->get(static::config('url') . '/russian/declension', $get);
 
 		static::debug('Пробуем получить склонение словосочетания через сервис');
 		$result = $curl->response;
