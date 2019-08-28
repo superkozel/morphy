@@ -20,12 +20,8 @@ class MorphyServiceProvider extends ServiceProvider
         }
         $this->publishes([$configPath => $publishPath], 'config');
 
-        if ($name = \Config::get('morphy.laravel.connection')) {
-            $conn = \DB::connection($name);
-        }
-        else {
-            $conn = \DB::getDefaultConnection();
-        }
+        $name = \Config::get('morphy.laravel.connection', \DB::getDefaultConnection());
+        $conn = \DB::connection($name);
 
         Morphy::setAdapter(new MorphyLaravelAdapter($conn));
         Morphy::setConfig(\Config::get('morphy'));
