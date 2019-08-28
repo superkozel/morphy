@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9740186c-ce56-46a7-bb46-df310c19b81a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/morphy.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/morphy.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Morphy/Adapter/MorphyLaravelAdapter.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Morphy/Adapter/MorphyLaravelAdapter.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Morphy/MorphyServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Morphy/MorphyServiceProvider.php" afterDir="false" />
-    </list>
+    <list default="true" id="9740186c-ce56-46a7-bb46-df310c19b81a" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +87,7 @@
       <workItem from="1566567340846" duration="5581000" />
       <workItem from="1566648584671" duration="1344000" />
       <workItem from="1566950568692" duration="350000" />
-      <workItem from="1566951398573" duration="5049000" />
+      <workItem from="1566951398573" duration="5280000" />
     </task>
     <servers />
   </component>

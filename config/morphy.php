@@ -5,6 +5,6 @@ return array(
     'username'  => '',
     'password'  => '',
     'laravel' => [
-        'connection' => 'default'
+        'connection' => ''
     ]
 );
