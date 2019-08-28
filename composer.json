@@ -5,7 +5,7 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "superk",
+            "name": "Dmitriy Zykov",
             "email": "aesleep@ya.ru"
         }
     ],
@@ -16,5 +16,26 @@
     "require": {
         "php": "^7",
         "curl/curl": "^2.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Morphy\\": "src/"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Morphy\\MorphyServiceProvider"
+            ],
+            "aliases": {
+                "Morphy": "Morphy\\Morphy"
+            }
+        }
+    },
+    "require-dev": {
+        "laravel/framework": "5.8.x"
     }
 }

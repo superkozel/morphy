@@ -18,29 +18,52 @@ class MorphyResult
 	/**
 	 * @return string
 	 */
-	function imenitelniy() {
+	public function imenitelniy()
+    {
 		return $this->data['i'];
 	}
 
-	function roditelniy() {
+    public function roditelniy()
+    {
 		return $this->data['r'];
 	}
 
-	function datelniy() {
+    public function datelniy()
+    {
 		return $this->data['d'];
 	}
 
-	function vinitelniy() {
+    public function vinitelniy()
+    {
 		return $this->data['v'];
 	}
 
-	function tvoritelniy() {
+    public function tvoritelniy()
+    {
 		return $this->data['t'];
 	}
 
-	function predlozhniy() {
+    public function predlozhniy()
+    {
 		return $this->data['p'];
 	}
+
+	public function getData()
+    {
+        return $this->data;
+    }
+
+    public function setForm(string $padezh, string $form)
+    {
+        $this->data($padezh, $form);
+
+        return $this;
+    }
+
+    public function getForm(string $padezh)
+    {
+        return $this->data[$padezh];
+    }
 
 	function __toString()
 	{

@@ -18,9 +18,14 @@ class Morphy
 		return static::$_adapter;
 	}
 
-	protected static $config = [
-	    'url' => 'https://ws3.morpher.ru',
+    protected static $config = [
+        'url' => 'https://ws3.morpher.ru',
     ];
+
+    public static function setConfig($config)
+    {
+        static::$config = $config;
+    }
 
 	public static function config($attr, $value = null) {
         if (! is_null($value)) {
@@ -87,10 +92,11 @@ class Morphy
             $get['password'] = static::$config['password'];
             $get['username'] = static::$config['username'];
         }
-        $curl->get(static::config('url') . '/russian/declension', $get);
+        $curl->get(static::config('endpoint') . '/russian/declension', $get);
 
 		static::debug('Пробуем получить склонение словосочетания через сервис');
 		$result = $curl->response;
+
 		static::debug($result);
 
 		try {
