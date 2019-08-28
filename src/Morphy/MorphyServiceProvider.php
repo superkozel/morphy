@@ -19,6 +19,6 @@ class MorphyServiceProvider extends ServiceProvider
         }
         $this->publishes([$configPath => $publishPath], 'config');
 
-        Morphy::setConfig(Config::get('morphy'));
+        Morphy::setConfig(\Config::get('morphy'));
     }
 }
