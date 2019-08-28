@@ -8,6 +8,8 @@
 
 namespace Morphy\Adapter;
 
+use Illuminate\Database\Connection;
+
 class MorphyLaravelAdapter implements CacheInterface, DbInterface
 {
     /**
@@ -20,12 +22,12 @@ class MorphyLaravelAdapter implements CacheInterface, DbInterface
 	/**
 	 * @return MorphyLaravelAdapter
 	 */
-	public static function create(Illuminate\Database\Connection $connection)
+	public static function create(Connection $connection)
 	{
 		return new MorphyLaravelAdapter($connection);
 	}
 
-	public function __construct(Illuminate\Database\Connection $connection)
+	public function __construct(Connection $connection)
     {
         $this->_connection = $connection;
     }
