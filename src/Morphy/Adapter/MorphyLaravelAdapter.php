@@ -15,7 +15,6 @@ class MorphyLaravelAdapter implements CacheInterface, DbInterface
      */
     protected $_connection;
 
-
     protected $_cache;
 
 	/**
