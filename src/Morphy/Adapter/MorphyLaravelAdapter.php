@@ -13,7 +13,7 @@ use Illuminate\Database\Connection;
 class MorphyLaravelAdapter implements CacheInterface, DbInterface
 {
     /**
-     * @var Illuminate\Database\Connection
+     * @var Connection
      */
     protected $_connection;
 
