@@ -34,6 +34,7 @@ class MorphyLaravelAdapter implements CacheInterface, DbInterface
 
     /**
 	 * @param string $sql
+     * ,
 	 * @return array
 	 */
 	public function queryRow($sql)

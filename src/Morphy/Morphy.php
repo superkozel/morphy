@@ -92,6 +92,7 @@ class Morphy
             $get['password'] = static::$config['password'];
             $get['username'] = static::$config['username'];
         }
+		$curl->setOpt(CURLOPT_SSL_VERIFYPEER, false);
         $curl->get(static::config('endpoint') . '/russian/declension', $get);
 
 		static::debug('Пробуем получить склонение словосочетания через сервис');

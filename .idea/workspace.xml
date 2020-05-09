@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9740186c-ce56-46a7-bb46-df310c19b81a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Morphy/Adapter/MorphyLaravelAdapter.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Morphy/Adapter/MorphyLaravelAdapter.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Morphy/Morphy.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Morphy/Morphy.php" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -12,20 +13,7 @@
   </component>
   <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
-    <execution>
-      <executable />
-    </execution>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>cacheSet</find>
-      <find>Cache</find>
-      <find>morphy</find>
-      <find>morphy_ch</find>
-      <find>stab</find>
-      <find>$resultArray</find>
-      <find>endpoint</find>
-    </findStrings>
+    <execution />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -44,10 +32,14 @@
   </component>
   <component name="ProjectId" id="1Q1wQvPMw3P4ZntBRlWXOvGsmlD" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Morphy" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -61,18 +53,6 @@
       <recent name="C:\WEBSERVER\htdocs\Morphy\src\Morphy" />
       <recent name="C:\WEBSERVER\htdocs\Morphy\src\Adapter" />
     </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -89,12 +69,14 @@
       <workItem from="1566567340846" duration="5581000" />
       <workItem from="1566648584671" duration="1344000" />
       <workItem from="1566950568692" duration="350000" />
-      <workItem from="1566951398573" duration="6664000" />
+      <workItem from="1566951398573" duration="9578000" />
+      <workItem from="1567778564608" duration="514000" />
+      <workItem from="1589017983556" duration="24000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -106,5 +88,12 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="667" y="313" width="585" height="534" key="find.popup" timestamp="1589017993764">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state x="667" y="313" width="585" height="534" key="find.popup/0.0.1920.1160@0.0.1920.1160" timestamp="1589017993764" />
   </component>
 </project>
