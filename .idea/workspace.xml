@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9740186c-ce56-46a7-bb46-df310c19b81a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Morphy/Adapter/MorphyLaravelAdapter.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Morphy/Adapter/MorphyLaravelAdapter.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Morphy/Morphy.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Morphy/Morphy.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +69,7 @@
       <workItem from="1566950568692" duration="350000" />
       <workItem from="1566951398573" duration="9578000" />
       <workItem from="1567778564608" duration="514000" />
-      <workItem from="1589017983556" duration="24000" />
+      <workItem from="1589017983556" duration="191000" />
     </task>
     <servers />
   </component>
