@@ -85,7 +85,7 @@ class Morphy
 
         $curl = new Curl();
 		$get = array(
-            's' => mb_ereg_replace("\s", "%20", $word),
+            's' => $word,
         );
 
 		if (! empty(static::$config['password']) && ! empty(static::$config['username'])) {
