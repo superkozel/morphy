@@ -9,7 +9,7 @@ class MorphyServiceProvider extends ServiceProvider
 {
     public function boot()
     {
-        $configPath = __DIR__.'/../config/morphy.php';
+        $configPath = __DIR__ . '/../config/morphy.php';
 
         $this->mergeConfigFrom($configPath, 'morphy');
 
